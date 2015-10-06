@@ -27,3 +27,6 @@ set expandtab
 
 set cino+=N-s
 
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
